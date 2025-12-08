@@ -13,9 +13,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://salinaspainting.com'), // Placeholder URL, best practice for OG
   title: {
     template: '%s | Salinas Painting',
-    default: 'Painter in Elizabethton TN | Salinas Painting',
+    default: 'Painter in Johnson City TN | Salinas Painting',
   },
-  description: "Salinas Painting offers professional residential and commercial painting services in Elizabethton, TN. Call +14232976489 for a free quote.",
+  description: "Salinas Painting offers professional residential and commercial painting services in Johnson City, TN. Call +14232976489 for a free quote.",
   openGraph: {
     type: 'website',
     locale: 'en_US',

@@ -83,7 +83,7 @@ export default function ContactPage() {
                                         <div className="ml-4">
                                             <h3 className="text-lg font-medium text-gray-900">Service Area</h3>
                                             <p className="mt-1 text-gray-600">
-                                                Proudly serving Elizabethton, TN and surrounding areas including Johnson City, Bristol, and Kingsport.
+                                                Proudly serving Johnson City, TN and surrounding areas including Elizabethton, Bristol, and Kingsport.
                                             </p>
                                         </div>
                                     </div>
@@ -125,11 +125,11 @@ export default function ContactPage() {
                     {/* Map Section */}
                     <section className="mt-20">
                         <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-900 text-center">
-                            Service Area – Elizabethton, TN
+                            Service Area – Johnson City, TN
                         </h2>
                         <div className="overflow-hidden rounded-xl shadow-lg h-[400px] md:h-[500px]">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32547.60699872379!2d-82.258!3d36.3487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885a0a467f7c9a8b%3A0x55f8100b1c381d!2sElizabethton%2C%20TN!5e0!3m2!1sen!2sus!4v0000000000000"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104118.89278788938!2d-82.46660145290615!3d36.33333367123992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885a7d976868d6e1%3A0xac23351d365d214f!2sJohnson%20City%2C%20TN!5e0!3m2!1sen!2sus!4v1701967200000!5m2!1sen!2sus"
                                 width="100%"
                                 height="100%"
                                 style={{ border: 0 }}

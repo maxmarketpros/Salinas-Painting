@@ -4,7 +4,7 @@ const services = [
     {
         title: 'Interior Painting',
         description: 'Refresh your living spaces with flawless walls, ceilings, and trim. We protect your furniture and floors.',
-        image: '/media/salinaspainting/IMG_8975.JPG',
+        image: '/media/newphotos/interiorpainting.JPG',
     },
     {
         title: 'Exterior Painting',
@@ -14,7 +14,7 @@ const services = [
     {
         title: 'Cabinet Painting',
         description: 'Update your kitchen or bathroom without the cost of replacement. Factory-finish results for your cabinets.',
-        image: '/media/salinaspainting/IMG_8985.JPG',
+        image: '/media/newphotos/cabinetpainting.JPG',
     },
     {
         title: 'Deck & Fence Staining',
@@ -24,7 +24,7 @@ const services = [
     {
         title: 'Drywall Repair',
         description: 'Seamless patching and repair for holes, cracks, and water damage before we paint.',
-        image: '/media/salinaspainting/IMG_8991.JPG',
+        image: '/media/newphotos/drywallrepair.JPG',
     },
     {
         title: 'Commercial Painting',
@@ -39,7 +39,7 @@ export default function ServicesGrid() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                        Painting Services in Elizabethton, TN
+                        Painting Services in Johnson City, TN
                     </h2>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                         Comprehensive painting solutions for your home and business.

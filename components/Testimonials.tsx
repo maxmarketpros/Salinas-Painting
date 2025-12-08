@@ -8,7 +8,7 @@ const testimonials = [
     },
     {
         name: 'John D.',
-        quote: 'Best painting service in Elizabethton. They painted our cabinets and kitchen walls, and it looks like a brand new house. Highly recommend!',
+        quote: 'Best painting service in Johnson City. They painted our cabinets and kitchen walls, and it looks like a brand new house. Highly recommend!',
         rating: 5,
     },
     {
@@ -31,7 +31,7 @@ export default function Testimonials() {
                         What Our Customers Are Saying
                     </h2>
                     <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-                        Trusted by your neighbors in Elizabethton.
+                        Trusted by your neighbors in Johnson City.
                     </p>
                 </div>
 

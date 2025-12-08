@@ -8,7 +8,7 @@ export default function Footer() {
                     <div>
                         <h3 className="text-xl font-bold text-primary mb-4">Salinas Painting</h3>
                         <p className="text-gray-600 mb-4">
-                            Professional residential and commercial painting services in Elizabethton, TN and surrounding areas.
+                            Professional residential and commercial painting services in Johnson City, TN and surrounding areas.
                         </p>
                     </div>
                     <div>
@@ -25,7 +25,7 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li className="text-gray-600">
-                                Elizabethton, TN
+                                Johnson City, TN
                             </li>
                         </ul>
                     </div>

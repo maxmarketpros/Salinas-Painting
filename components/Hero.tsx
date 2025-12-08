@@ -1,17 +1,18 @@
+import Image from 'next/image';
+
 export default function Hero() {
     return (
         <section className="relative min-h-[90vh] flex items-center bg-gray-900 overflow-hidden">
-            {/* Background Video with Overlay */}
+            {/* Background Image with Overlay */}
             <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-gradient-to-r from-gray-900/85 via-gray-900/60 to-transparent z-10"></div>
                 <div className="absolute inset-0 bg-black/10 z-0"></div>
-                <video
-                    src="/media/hero-video.mp4"
-                    className="w-full h-full object-cover"
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
+                <Image
+                    src="/media/heroimage.jpg"
+                    alt="Salinas Painting Hero Background"
+                    fill
+                    className="object-cover"
+                    priority
                 />
             </div>
 
@@ -19,20 +20,20 @@ export default function Hero() {
                 <div className="max-w-3xl">
                     <div className="inline-block px-4 py-2 bg-secondary/20 backdrop-blur-sm border border-secondary/30 rounded-full mb-6">
                         <span className="text-secondary font-bold tracking-wider text-sm uppercase">
-                            Serving Elizabethton & Surrounding Areas
+                            Serving Johnson City & Surrounding Areas
                         </span>
                     </div>
 
                     <h1 className="text-5xl sm:text-6xl md:text-7xl font-black text-white leading-tight mb-8">
                         Painter in <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-amber-200">
-                            Elizabethton TN
+                            Johnson City TN
                         </span>
                     </h1>
 
                     <p className="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed max-w-2xl font-light">
                         Transforming homes with professional craftsmanship.
-                        We are your trusted <strong className="text-white font-semibold">Painter in Elizabethton TN</strong>, dedicated to quality and detail.
+                        We are your trusted <strong className="text-white font-semibold">Painter in Johnson City TN</strong>, dedicated to quality and detail.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-5">
