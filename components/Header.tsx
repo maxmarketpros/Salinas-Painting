@@ -56,7 +56,7 @@ export default function Header() {
                     <div className="md:hidden flex items-center">
                         <a
                             href="tel:+14232976489"
-                            className="mr-3 text-sm font-bold text-primary border-2 border-primary px-3 py-1.5 rounded-full"
+                            className="mr-2 text-xs font-bold text-primary border border-primary px-2 py-1.5 rounded-full whitespace-nowrap"
                         >
                             (423) 297-6489
                         </a>
