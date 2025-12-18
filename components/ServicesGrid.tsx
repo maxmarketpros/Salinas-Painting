@@ -14,12 +14,12 @@ const services = [
     {
         title: 'Deck & Fence Staining',
         description: 'Clean, sand, and stain to restore and protect your outdoor wood features.',
-        image: '/media/fwsalinaspaintingnewphotospage2/IMG_8980.JPG',
+        image: '/media/deckstaining.JPG',
     },
     {
         title: 'Drywall Repair',
         description: 'Seamless patching for holes, cracks, and water damage before fresh paint.',
-        image: '/media/fwsalinaspaintingnewphotospage2/IMG_8985.JPG',
+        image: '/media/drywall.jpg',
     },
     {
         title: 'Commercial Painting',

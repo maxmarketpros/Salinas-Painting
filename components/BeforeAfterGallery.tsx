@@ -1,4 +1,4 @@
-﻿import Image from 'next/image';
+import Image from 'next/image';
 
 const projects = [
     {
@@ -11,7 +11,7 @@ const projects = [
     },
     {
         before: '/media/fwsalinaspaintingnewphotospage2/IMG_8981.jpg',
-        after: '/media/fwsalinaspaintingnewphotospage2/IMG_8967.jpg',
+        after: '/media/thirdafterpic.webp',
     },
 ];
 
@@ -66,4 +66,3 @@ export default function BeforeAfterGallery() {
         </section>
     );
 }
-
