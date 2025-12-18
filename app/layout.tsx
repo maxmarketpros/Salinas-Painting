@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -13,9 +13,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://salinaspainting.com'), // Placeholder URL, best practice for OG
   title: {
     template: '%s | Salinas Painting',
-    default: 'Painter in Johnson City TN | Salinas Painting',
+    default: 'Painting Services in Tri Cities TN | Salinas Painting',
   },
-  description: "Salinas Painting offers professional residential and commercial painting services in Johnson City, TN. Call +14232976489 for a free quote.",
+  description: "Salinas Painting offers professional residential and commercial painting services across the Tri Cities, TN. Call +14232976489 for a free quote.",
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -43,3 +43,4 @@ export default function RootLayout({
     </html>
   );
 }
+

@@ -1,8 +1,9 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
-import { Bars3Icon, XMarkIcon, PaintBrushIcon } from '@heroicons/react/24/outline';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const navigation = [
     { name: 'Home', href: '/' },
@@ -19,9 +20,15 @@ export default function Header() {
                 <div className="flex justify-between items-center h-20">
                     {/* Logo */}
                     <div className="flex-shrink-0">
-                        <Link href="/" className="flex items-center gap-2 text-2xl font-bold text-primary tracking-tight group">
-                            <PaintBrushIcon className="h-8 w-8 text-secondary group-hover:rotate-12 transition-transform" />
-                            <span>Salinas Painting</span>
+                        <Link href="/" className="flex items-center" aria-label="Salinas Painting home">
+                            <Image
+                                src="/media/NEWLOGO.png"
+                                alt="Salinas Painting logo"
+                                width={480}
+                                height={160}
+                                priority
+                                className="h-20 w-auto"
+                            />
                         </Link>
                     </div>
 
@@ -92,7 +99,7 @@ export default function Header() {
                         ))}
                         <a
                             href="/#quote"
-                            className="block mt-6 text-center rounded-lg px-3 py-4 text-lg font-bold text-white bg-secondary hover:bg-amber-600 mb-4"
+                            className="block mt-6 text-center rounded-lg px-3 py-4 text-lg font-bold text-white bg-secondary hover:bg-red-700 mb-4"
                             onClick={() => setMobileMenuOpen(false)}
                         >
                             Request a Quote

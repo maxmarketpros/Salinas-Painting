@@ -1,4 +1,4 @@
-import { CheckCircleIcon, CurrencyDollarIcon, SparklesIcon, UserGroupIcon } from '@heroicons/react/24/outline';
+﻿import { CheckCircleIcon, CurrencyDollarIcon, SparklesIcon, UserGroupIcon } from '@heroicons/react/24/outline';
 
 const features = [
     {
@@ -18,7 +18,7 @@ const features = [
     },
     {
         name: 'Locally Trusted',
-        description: 'As a local team, we care about our community and treat every home like it’s our own.',
+        description: 'As a local team, we care about our community and treat every home like it is our own.',
         icon: UserGroupIcon,
     },
 ];
@@ -29,10 +29,10 @@ export default function WhyChooseUs() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                        Why Choose Our <span className="text-primary">Painter in Johnson City TN</span>?
+                        Why Choose <span className="text-primary">Salinas Painting</span>
                     </h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                        Experience the difference professional craftsmanship makes.
+                        We strive for high-quality results that transform your home or business. We provide integrity, trust, and ensure every detail is executed flawlessly, enhancing the beauty and value of your property.
                     </p>
                 </div>
 
@@ -53,3 +53,4 @@ export default function WhyChooseUs() {
         </section>
     );
 }
+

@@ -1,8 +1,8 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
 @theme {
   --color-primary: #0e3742; /* Deep teal/blue */
-  --color-secondary: #f59e0b; /* Warm amber/orange */
+  --color-secondary: #c0262d; /* Deep red */
   --color-dark: #1f2937;
   --color-light: #f3f4f6;
 }
@@ -33,3 +33,4 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+

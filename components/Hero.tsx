@@ -1,4 +1,4 @@
-import Image from 'next/image';
+﻿import Image from 'next/image';
 
 export default function Hero() {
     return (
@@ -18,28 +18,21 @@ export default function Hero() {
 
             <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
                 <div className="max-w-3xl">
-                    <div className="inline-block px-4 py-2 bg-secondary/20 backdrop-blur-sm border border-secondary/30 rounded-full mb-6">
-                        <span className="text-secondary font-bold tracking-wider text-sm uppercase">
-                            Serving Johnson City & Surrounding Areas
-                        </span>
-                    </div>
-
                     <h1 className="text-5xl sm:text-6xl md:text-7xl font-black text-white leading-tight mb-8">
-                        Painter in <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-amber-200">
-                            Johnson City TN
+                        Providing Painting Services in <br />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-rose-200">
+                            Tri Cities, TN
                         </span>
                     </h1>
 
                     <p className="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed max-w-2xl font-light">
-                        Transforming homes with professional craftsmanship.
-                        We are your trusted <strong className="text-white font-semibold">Painter in Johnson City TN</strong>, dedicated to quality and detail.
+                        At Salinas Painting, we specialize in enhancing the beauty of your home or business by providing our detail-oriented painting service. Experience a fresh look and lasting quality that will impress for years to come.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-5">
                         <a
                             href="#quote"
-                            className="bg-secondary hover:bg-amber-600 text-white text-lg font-bold py-4 px-10 rounded-full shadow-[0_0_20px_rgba(245,158,11,0.5)] transform transition-all hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(245,158,11,0.7)] text-center"
+                            className="bg-secondary hover:bg-red-700 text-white text-lg font-bold py-4 px-10 rounded-full shadow-[0_0_20px_rgba(192,38,45,0.35)] transform transition-all hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(192,38,45,0.5)] text-center"
                         >
                             Get My Free Quote
                         </a>
@@ -56,9 +49,9 @@ export default function Hero() {
                             <div className="w-12 h-0.5 bg-gray-700"></div>
                         </div>
                         <div className="flex gap-8">
-                            <span>✔ Licensed & Insured</span>
-                            <span>✔ 5-Star Rated</span>
-                            <span>✔ Free Estimates</span>
+                            <span>- Licensed & Insured</span>
+                            <span>- 5-Star Rated</span>
+                            <span>- Free Estimates</span>
                         </div>
                     </div>
                 </div>
@@ -73,3 +66,4 @@ export default function Hero() {
         </section>
     );
 }
+

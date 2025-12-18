@@ -1,14 +1,14 @@
-import { StarIcon } from '@heroicons/react/24/solid';
+﻿import { StarIcon } from '@heroicons/react/24/solid';
 
 const testimonials = [
     {
         name: 'Sarah M.',
-        quote: 'They did an amazing job on our exterior! The team was professional, on time, and the cleanup was spotless. transforming our home completely.',
+        quote: 'They did an amazing job on our exterior! The team was professional, on time, and the cleanup was spotless. They transformed our home completely.',
         rating: 5,
     },
     {
         name: 'John D.',
-        quote: 'Best painting service in Johnson City. They painted our cabinets and kitchen walls, and it looks like a brand new house. Highly recommend!',
+        quote: 'Best painting service in the Tri Cities. They painted our entire home with great attention to detail - it looks like a brand new house. Highly recommend!',
         rating: 5,
     },
     {
@@ -31,7 +31,7 @@ export default function Testimonials() {
                         What Our Customers Are Saying
                     </h2>
                     <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-                        Trusted by your neighbors in Johnson City.
+                        Honest feedback from homeowners and business owners we have served.
                     </p>
                 </div>
 
@@ -54,3 +54,4 @@ export default function Testimonials() {
         </section>
     );
 }
+

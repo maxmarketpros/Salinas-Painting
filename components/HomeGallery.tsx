@@ -1,10 +1,10 @@
 import Image from 'next/image';
 
 const galleryImages = [
-    '/media/newphotos/IMG_8990.JPG',
-    '/media/newphotos/IMG_8995.jpg',
-    '/media/newphotos/IMG_9003.JPG',
-    '/media/newphotos/IMG_9004.JPG',
+    '/media/fwsalinaspaintingnewphotos/IMG_8975.JPG',
+    '/media/fwsalinaspaintingnewphotos/IMG_8977.JPG',
+    '/media/fwsalinaspaintingnewphotos/IMG_8969.jpg',
+    '/media/salinaspainting/IMG_8990.JPG',
 ];
 
 export default function HomeGallery() {
@@ -16,7 +16,7 @@ export default function HomeGallery() {
                         Our Recent Work
                     </h2>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                        A glimpse into the quality and detail we bring to every project in Johnson City.
+                        A glimpse into the quality and detail we bring to every project across the Tri Cities.
                     </p>
                 </div>
 

@@ -1,25 +1,16 @@
-"use client";
+﻿"use client";
 
 import { useEffect } from 'react';
 
 export default function QuoteSection() {
 
     useEffect(() => {
-        // Determine if the script is already loaded to avoid duplicates, although the snippet provided adds it inside the section.
-        // The snippet uses a simplified script tag. Next.js usually dislikes inline script tags without Script component,
-        // but specific embed codes often safer to use dangerouslySetInnerHTML or standard script if it handles its own loading.
-        // For React/Next.js, extracting the script is cleaner.
-
-        // However, the user asked to "Embed the exact form below. Do not modify its attributes or src".
-        // I will include the script below naturally.
-
         const script = document.createElement('script');
         script.src = "https://link.msgsndr.com/js/form_embed.js";
         script.async = true;
         document.body.appendChild(script);
 
         return () => {
-            // clean up if needed
             document.body.removeChild(script);
         };
     }, []);
@@ -31,7 +22,7 @@ export default function QuoteSection() {
                     Request a Free Painting Quote
                 </h2>
                 <p className="text-center mb-6 text-gray-600">
-                    Tell us about your project and we’ll get back to you as soon as possible.
+                    Tell us about your project and we will get back to you as soon as possible.
                 </p>
 
                 <div className="quote-form-wrapper w-full min-h-[700px] rounded-xl overflow-hidden shadow-lg bg-white">
@@ -57,3 +48,4 @@ export default function QuoteSection() {
         </section>
     );
 }
+

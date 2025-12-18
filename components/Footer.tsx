@@ -1,4 +1,4 @@
-export default function Footer() {
+﻿export default function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
@@ -8,7 +8,7 @@ export default function Footer() {
                     <div>
                         <h3 className="text-xl font-bold text-primary mb-4">Salinas Painting</h3>
                         <p className="text-gray-600 mb-4">
-                            Professional residential and commercial painting services in Johnson City, TN and surrounding areas.
+                            Professional residential and commercial painting services across the Tri Cities, TN.
                         </p>
                     </div>
                     <div>
@@ -24,9 +24,6 @@ export default function Footer() {
                                     SalinasPainting7@yahoo.com
                                 </a>
                             </li>
-                            <li className="text-gray-600">
-                                Johnson City, TN
-                            </li>
                         </ul>
                     </div>
                     <div>
@@ -40,10 +37,11 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-                    <p>© {currentYear} Salinas Painting. All rights reserved.</p>
+                    <p>(c) {currentYear} Salinas Painting. All rights reserved.</p>
                     <p className="mt-2 md:mt-0">Website by Max Market Pros</p>
                 </div>
             </div>
         </footer>
     );
 }
+

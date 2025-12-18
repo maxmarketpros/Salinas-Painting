@@ -1,4 +1,4 @@
-import Hero from '@/components/Hero';
+﻿import Hero from '@/components/Hero';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import ServicesGrid from '@/components/ServicesGrid';
 import HomeGallery from '@/components/HomeGallery';
@@ -8,8 +8,8 @@ import QuoteSection from '@/components/QuoteSection';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Painter in Johnson City TN',
-  description: 'Salinas Painting is your trusted Painter in Johnson City TN. We provide high-quality residential and commercial painting services. Call for a quote!',
+  title: 'Providing Painting Services in Tri Cities, TN',
+  description: 'Salinas Painting provides detail-oriented residential and commercial painting services across the Tri Cities, TN area. Call for a quote!',
   openGraph: {
     images: ['/media/salinaspainting/IMG_8974.JPG'],
   },
@@ -28,3 +28,4 @@ export default function Home() {
     </div>
   );
 }
+
